@@ -1,0 +1,85 @@
+ body{
+	 background-color: MistyRose;
+	 margin: 0;
+	 padding: 0; 
+	 font: 20px/27px georgia;
+ }
+
+header{
+	background-image: url('../pics/fej.jpg');
+	background-repeat: repeat-x; 
+	position: relative;
+}
+
+nav{
+	position: absolute;
+	top:20px;
+	right: 20px;
+}
+nav a{
+	color: black; 
+	font: 30px/30px Impact, Charcoal, sans-serif;
+	text-decoration: none; 
+	padding: 20px;
+}
+nav a:hover{
+	background: lightpink; 
+}
+
+nav ul{
+	list-style: none;
+	padding:0; 
+	margin: 0;
+}
+
+nav ul li{
+	float:left; 
+}
+
+header img {
+	margin: 5px;
+	
+
+}
+	
+ h1{
+	font: 50px/27px Impact, Charcoal, sans-serif;
+	text-align: center; 
+	position:relative; 
+	margin: 50px;
+}
+
+.kezdő img {
+	width:100%;
+}
+
+.Bevezető{
+text-align:center;	
+margin-left:50px;
+margin-right:50px;
+}
+
+footer{
+	background-image: url('../pics/fej.jpg');
+	background-repeat: repeat-x; 
+	position: relative;
+	bottom:0;
+}
+
+
+
+.el{
+	width: 10%;
+	float: left; 
+	margin:20px;
+	text-align:left;
+}
+
+.cím{
+width:100%;
+text-align:left;
+}
+
+.cím ul li{
+	list-style: none;
+}
